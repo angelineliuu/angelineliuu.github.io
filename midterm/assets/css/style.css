@@ -1,0 +1,170 @@
+body {
+    background: #D6D9DC;
+    font-family: Lexend;
+    margin: 0
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #D6D9DC;
+    position: fixed;
+    top: 0;
+    width: 1300px;
+    z-index: 1
+}
+
+.navigation {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+.content {
+    width: 1000px;
+    text-align: center;
+    margin: auto
+}
+
+#logo {
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 550px
+}
+
+#home, #menu, #merch, #contact {
+    padding-top: 10px;
+    padding-right: 100px
+}
+
+#home:hover, #menu:hover, #merch:hover, #contact:hover {
+    opacity: 50%;
+    cursor: pointer
+}
+
+.banner {
+    position: relative;
+    background-image: url('../img/topdog.jpg');
+    background-size: cover;
+    height: 400px;
+    margin-top: 60px;
+}
+
+
+#open {
+    font-size: 20px;
+    font-weight: lighter
+}
+
+#overlay {
+    position: absolute;
+    background-color: #3F4FD9;
+    width: 100%;
+    height: 400px;
+    opacity: 50%;
+}
+
+#banner-text {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-style: 1000;
+    line-height: 10%;
+    opacity: 100%;
+    padding-top: 230px;
+    padding-left: 30px
+}
+
+.content {
+    padding-top: 30px
+}
+
+#story {
+    line-height: 2
+}
+
+#hotdogs {
+    padding-top: 30px
+}
+
+hr {
+    background-color: #3F4FD9;
+    height: 3px
+}
+
+.imgs {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover {
+    opacity: 50%
+}
+
+#hotlink, #chickenapple, #lemonchicken, #bratwurst {
+    display: none
+}
+
+#one:hover + #hotlink {
+    position: absolute; 
+    display: block;
+    color: black;
+    padding: 65px;
+    font-size: 24px
+}
+
+#two:hover + #chickenapple {
+    position: absolute; 
+    display: block;
+    color: black;
+    padding: 290px;
+    font-size: 24px;
+}
+
+#three:hover + #lemonchicken {
+    position: absolute; 
+    display: block;
+    color: black;
+    padding-left: 535px;
+    font-size: 24px
+}
+
+#four:hover + #bratwurst {
+    position: absolute; 
+    display: block;
+    color: black;
+    padding-left: 815px;
+    font-size: 24px
+}
+
+#reviews {
+    padding-top: 70px;
+    margin-bottom: 50px
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 0.5;
+    font-size: 12px;
+    justify-content: space-around
+}
