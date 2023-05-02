@@ -22,6 +22,10 @@
   font-style: normal
 }
 
+a {
+  color: 20b965;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -46,13 +50,16 @@ header {
 }
 
 #donate {
-  background-color: rgb(0, 0, 41);
-  color: white;
+  background-color: #373b67;
   border-radius: 20px;
 }
 
+#donate1 {
+  color: white;
+}
+
 #button, #donate {
-  padding: 12px 40px 12px 40px
+  padding: 10px 40px 10px 40px
 }
 
 #button:hover, #donate:hover{
@@ -107,7 +114,9 @@ hr {
 }
 
 #About {
-  margin-bottom: 40px
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1cm;
 }
 
 .table {
@@ -167,21 +176,17 @@ hr {
   margin: 30px;
 }
 
-#Overview {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start
+.chart {
+  width: 45%;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px lightgrey;
+  margin-bottom: 30px;
 }
 
-.chart {
-  width: 75%;
-  height: auto;
-  padding: 10px;
-  border: 1px solid;
-  border-color: gray;
-  margin-bottom: 30px;
-  transform: translateX(18%)
-}
+
+
+
 
 
 
